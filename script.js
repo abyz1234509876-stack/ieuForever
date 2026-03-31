@@ -1,16 +1,12 @@
 ﻿/**
- * ieuForever - Student Enrollment Overlay + Staff Circles
- * Features:
- * - Superposed student enrollment areas.
- * - Staff total numbers as circles under the baseline.
- * - X-axis uses full "Academic Year" strings (e.g., 2001-2002).
- * - Standard lines only (no extra ticks).
+ * ieuForever - Student & Staff Visualization
+ * Data Source: totaldata.json
+ * Updated: 3200px width, horizontal X-axis labels (smaller).
  */
 
 const config = {
-  studentFile: 'ieuStudentsEnrolled.json',
-  staffFile: 'ieuForeverData_staffRegistered.json',
-  keys: ['vocational', 'bachelor', 'master', 'phd'],
+  dataFile: 'totaldata.json',
+  studentKeys: ['vocational', 'bachelor', 'master', 'phd'],
   colors: {
     vocational: '#FFE0B2', 
     bachelor:   '#FFB74D', 
@@ -28,42 +24,34 @@ function clearChart() {
   d3.select('#chart').html('');
 }
 
-/**
- * Loads both datasets and synchronizes the year format to "YYYY-YYYY".
- */
 function init() {
-  Promise.all([
-    d3.json(config.studentFile),
-    d3.json(config.staffFile)
-  ]).then(([studentData, staffData]) => {
-    // Parse Student Data: Map numerical year 2001 to string "2001-2002"
-    const parsedStudents = studentData
-      .filter(d => d.program_type === 'TOPLAM')
-      .map(d => ({
-        year: `${d.year}-${d.year + 1}`, 
-        vocational: +d.vocational.total,
-        bachelor:   +d.bachelor.total,
-        master:     +d.master.total,
-        phd:        +d.phd.total,
-      }))
-      .sort((a, b) => a.year.localeCompare(b.year));
+  d3.json(config.dataFile).then(data => {
+    const sortedData = data.sort((a, b) => a.academic_year.localeCompare(b.academic_year));
 
-    // Parse Staff Data: Use the original "Academic Year" string
-    const parsedStaff = staffData.map(d => ({
-      year: d["Academic Year"], 
-      totalStaff: +d["Genel Toplam_T"]
+    const studentData = sortedData.map(d => ({
+      year: d.academic_year,
+      vocational: d.students ? +d.students.vocational.total : 0,
+      bachelor:   d.students ? +d.students.bachelor.total : 0,
+      master:     d.students ? +d.students.master.total : 0,
+      phd:        d.students ? +d.students.phd.total : 0
+    }));
+
+    const staffData = sortedData.map(d => ({
+      year: d.academic_year,
+      totalStaff: d.staff ? +d.staff.total.total : 0
     }));
 
     clearChart();
-    drawChart(parsedStudents, parsedStaff);
-  }).catch(err => console.error("Error loading data:", err));
+    drawChart(studentData, staffData);
+  }).catch(err => console.error("Error loading totaldata.json:", err));
 }
 
 function drawChart(students, staff) {
-  const font = "'Open Sans', sans-serif";
+  const font = "'Bricolage Grotesque', sans-serif";
   const margin = { top: 60, right: 50, bottom: 150, left: 70 };
   
-  const W = 2400; // Fixed width for horizontal page scroll
+  // 1. Updated width to 3200
+  const W = 3200; 
   const H = 650; 
   const w = W - margin.left - margin.right;
   const h = H - margin.top - margin.bottom;
@@ -75,14 +63,8 @@ function drawChart(students, staff) {
     .append('g')
     .attr('transform', `translate(${margin.left},${margin.top})`);
 
-  // Shared X-Axis Domain using academic year strings
-  const allYears = Array.from(new Set([
-    ...students.map(d => d.year),
-    ...staff.map(d => d.year)
-  ])).sort((a, b) => a.localeCompare(b));
-
   const x = d3.scalePoint()
-    .domain(allYears)
+    .domain(students.map(d => d.year))
     .range([0, w]);
 
   const y = d3.scaleLinear()
@@ -90,13 +72,23 @@ function drawChart(students, staff) {
     .nice()
     .range([h, 0]);
 
-  // Staff Circle Scale (Radius)
-  const maxStaff = d3.max(staff, d => d.totalStaff);
   const rScale = d3.scaleSqrt()
-    .domain([0, maxStaff])
+    .domain([0, d3.max(staff, d => d.totalStaff)])
     .range([0, 60]); 
 
-  // 1. Draw Student Area Layers (Overlay)
+  // Grid Lines
+  svg.append('g')
+    .attr('class', 'grid')
+    .selectAll('line')
+    .data(y.ticks(8))
+    .join('line')
+    .attr('x1', 0)
+    .attr('x2', w)
+    .attr('y1', d => y(d))
+    .attr('y2', d => y(d))
+    .attr('stroke', 'rgba(0, 0, 0, 0.1)')
+    .attr('stroke-dasharray', '5,5');
+
   const areaGenerator = (key) => d3.area()
     .x(d => x(d.year))
     .y0(h) 
@@ -115,31 +107,28 @@ function drawChart(students, staff) {
     .attr('stroke', key => config.colors[key])
     .attr('stroke-width', 1);
 
-  // 2. Draw Staff Circles positioned under the baseline
   svg.selectAll('.staff-circle')
     .data(staff)
     .join('circle')
     .attr('class', 'staff-circle')
     .attr('cx', d => x(d.year))
-    .attr('cy', h + 85) 
+    .attr('cy', h + 155) 
     .attr('r', d => rScale(d.totalStaff))
     .attr('fill', config.colors.staffCircle)
     .attr('stroke', '#E65100')
     .attr('stroke-width', 0.5);
 
-  // 3. Y-Axis
   const yAxis = svg.append('g')
     .call(d3.axisLeft(y).ticks(8).tickFormat(d => d.toLocaleString()));
   
   yAxis.select('.domain').attr('stroke', '#333').attr('stroke-width', 1.5);
   yAxis.selectAll('text').attr('fill', '#666').attr('font-size', '11px');
 
-  // 4. Baseline (Horizontal Line)
   svg.append('line')
     .attr('x1', 0).attr('x2', w).attr('y1', h).attr('y2', h)
     .attr('stroke', '#333').attr('stroke-width', 1.5);
 
-  // 5. X-Axis (Using tickSize(0) as per "existing lines only" instruction)
+  // 2. X-Axis: Labels are now horizontal (no rotation) and smaller
   const xAxis = svg.append('g')
     .attr('transform', `translate(0,${h})`)
     .call(d3.axisBottom(x).tickSize(0)); 
@@ -147,10 +136,9 @@ function drawChart(students, staff) {
   xAxis.select('.domain').remove();
   xAxis.selectAll('text')
     .attr('fill', 'rgba(0,0,0,0.55)')
-    .attr('font-size', '11px')
+    .attr('font-size', '9px') // Smaller font
     .attr('dy', '1.5em')
-    .attr('transform', 'rotate(-30)')
-    .attr('text-anchor', 'end');
+    .attr('text-anchor', 'middle'); // Centered under the point
 }
 
 init();

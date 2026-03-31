@@ -1,13 +1,12 @@
 body {
-  font-family: "Bricolage Grotesque", sans-serif; /* */
-  background: #fff; /* */
-  color: #333; /* */
-  padding: 2rem; /* */
-  
-  /* Change these to allow horizontal page scrolling */
+  font-family: 'Bricolage Grotesque', sans-serif;
+  background: #fff;
+  color: #333;
+  padding: 2rem;
   display: block; 
-  min-width: 2400px; 
-  text-align: center; /* This keeps your H2 and Legend centered in the 2400px width */
+  /* 3. Changed min-width to 3200px to match JS */
+  min-width: 3200px; 
+  text-align: center;
 }
 
 h2 {
