@@ -11,9 +11,13 @@ body {
 }
 
 h2 {
-  font-size: 24px; /* */
-  font-weight: 600; /* */
-  margin-bottom: 2rem; /* */
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  /* Add this line to align the title to the left */
+  text-align: left; 
+  /* Optional: align it with the chart's left margin (70px in your JS) */
+  padding-left: 70px; 
 }
 
 #chart {

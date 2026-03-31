@@ -1,4 +1,14 @@
-﻿const datasetConfigs = {
+﻿/**
+ * ieuForever - Student Enrollment Overlay Chart (Static Version)
+ * Features:
+ * - Superposed (overlay) areas.
+ * - Shades of orange palette.
+ * - Fixed 2400px width for horizontal page scrolling.
+ * - Left-aligned Y-axis and horizontal baseline.
+ * - Hovering/Tooltips removed.
+ */
+
+const datasetConfigs = {
   students: {
     name: 'Students',
     file: 'ieuStudentsEnrolled.json',
@@ -44,60 +54,56 @@ function loadDataset(datasetKey) {
 }
 
 function drawChart(raw, config) {
-  const font = "'Open Sans', sans-serif"; /* */
-  const margin = { top: 60, right: 30, bottom: 50, left: 70 }; /* */
+  const font = "'Open Sans', sans-serif";
+  const margin = { top: 60, right: 30, bottom: 50, left: 70 };
   
-  // 1. Force W to be exactly 2400
-  const W = 3600; 
-  const H = 600; /* */
-  const w = W - margin.left - margin.right; /* */
-  const h = H - margin.top - margin.bottom; /* */
+  const W = 2400; 
+  const H = 500;
+  const w = W - margin.left - margin.right;
+  const h = H - margin.top - margin.bottom;
 
   const svg = d3.select('#chart').append('svg')
-    .attr('viewBox', `0 0 ${W} ${H}`) /* */
-    // 2. Change '100%' to W to prevent the chart from shrinking
-    .attr('width', W) 
-    .style('font-family', font) /* */
+    .attr('viewBox', `0 0 ${W} ${H}`)
+    .attr('width', W)
+    .style('font-family', font)
     .append('g')
-    .attr('transform', `translate(${margin.left},${margin.top})`); /* */
-
-  const stack = d3.stack()
-    .keys(config.keys)
-    .offset(d3.stackOffsetNone) 
-    .order(d3.stackOrderNone);
-
-  const series = stack(raw);
+    .attr('transform', `translate(${margin.left},${margin.top})`);
 
   const x = d3.scalePoint()
     .domain(raw.map(d => d.year))
     .range([0, w]);
 
+  const maxIndividualValue = d3.max(raw, d => 
+    Math.max(d.vocational, d.bachelor, d.master, d.phd)
+  );
+  
   const y = d3.scaleLinear()
-    .domain([0, d3.max(series, s => d3.max(s, d => d[1]))])
+    .domain([0, maxIndividualValue])
+    .nice()
     .range([h, 0]);
 
-  const area = d3.area()
-    .x(d => x(d.data.year))
-    .y0(d => y(d[0]))
-    .y1(d => y(d[1]))
-    .curve(d3.curveBasis); 
+  const areaGenerator = (key) => d3.area()
+    .x(d => x(d.year))
+    .y0(h) 
+    .y1(d => y(d[key]))
+    .curve(d3.curveBasis);
 
-  const layers = svg.selectAll('.layer')
-    .data(series)
+  const renderOrder = ['bachelor', 'vocational', 'master', 'phd'];
+
+  svg.selectAll('.layer')
+    .data(renderOrder)
     .join('path')
     .attr('class', 'layer')
-    .attr('d', area)
-    .attr('fill', d => config.colors[d.key])
-    .attr('opacity', 0.9);
+    .attr('d', key => areaGenerator(key)(raw))
+    .attr('fill', key => config.colors[key])
+    .attr('opacity', 0.8) 
+    .attr('stroke', key => config.colors[key])
+    .attr('stroke-width', 1);
 
-  // Y-Axis (The y-bar showing numbers at the left)
+  // Y-Axis
   const yAxis = svg.append('g')
-    .call(d3.axisLeft(y)
-      .ticks(8)
-      .tickFormat(d => d.toLocaleString())
-    );
+    .call(d3.axisLeft(y).ticks(8).tickFormat(d => d.toLocaleString()));
   
-  // Style the Y-axis line and text
   yAxis.select('.domain').attr('stroke', '#333').attr('stroke-width', 1.5);
   yAxis.selectAll('text').attr('fill', '#666').attr('font-size', '11px');
 
@@ -122,40 +128,6 @@ function drawChart(raw, config) {
     .attr('dy', '1.5em')
     .attr('transform', 'rotate(-30)')
     .attr('text-anchor', 'end');
-
-  // Tooltip
-  const tooltip = d3.select('#chart').append('div').attr('class', 'tooltip');
-
-  layers
-    .on('mouseenter', function() {
-      layers.attr('opacity', 0.4);
-      d3.select(this).attr('opacity', 1);
-    })
-    .on('mousemove', function(event, d) {
-      const mouseX = d3.pointer(event)[0];
-      const domain = x.domain();
-      const range = x.range();
-      const step = (range[1] - range[0]) / (domain.length - 1);
-      const index = Math.round((mouseX - range[0]) / step);
-      const dataPoint = raw[index];
-
-      if (dataPoint) {
-        let tooltipHtml = `<strong>${dataPoint.year}</strong><br>`;
-        config.keys.forEach(key => {
-          tooltipHtml += `<span style="color:${config.colors[key]}">&#9632;</span> ${titleize(key)}: ${dataPoint[key].toLocaleString()}<br>`;
-        });
-
-        tooltip.style('opacity', 1)
-          .style('left', (event.offsetX + 15) + 'px')
-          .style('top', (event.offsetY - 50) + 'px')
-          .html(tooltipHtml);
-      }
-    })
-    .on('mouseleave', function() {
-      layers.attr('opacity', 0.9);
-      tooltip.style('opacity', 0);
-    });
 }
 
 loadDataset('students');
-// Export logic has been removed
