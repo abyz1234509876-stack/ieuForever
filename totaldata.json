@@ -1,0 +1,496 @@
+[
+  {
+    "academic_year": "2025-2026",
+    "students": null,
+    "staff": {
+      "professors": { "male": 78, "female": 65, "total": 143 },
+      "associate_professors": { "male": 28, "female": 28, "total": 56 },
+      "assistant_professors": { "male": 76, "female": 82, "total": 158 },
+      "lecturers": { "male": 46, "female": 125, "total": 171 },
+      "instructors": { "male": 0, "female": 0, "total": 0 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 48, "female": 51, "total": 99 },
+      "total": { "male": 276, "female": 351, "total": 627 }
+    }
+  },
+  {
+    "academic_year": "2024-2025",
+    "students": {
+      "vocational": { "male": 1167, "female": 1193, "total": 2360 },
+      "bachelor": { "male": 3817, "female": 4470, "total": 8287 },
+      "master": { "male": 195, "female": 300, "total": 495 },
+      "phd": { "male": 27, "female": 48, "total": 75 },
+      "total": { "male": 5206, "female": 6011, "total": 11217 }
+    },
+    "staff": {
+      "professors": { "male": 65, "female": 60, "total": 125 },
+      "associate_professors": { "male": 29, "female": 27, "total": 56 },
+      "assistant_professors": { "male": 74, "female": 77, "total": 151 },
+      "lecturers": { "male": 51, "female": 130, "total": 181 },
+      "instructors": { "male": 0, "female": 0, "total": 0 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 40, "female": 57, "total": 97 },
+      "total": { "male": 259, "female": 351, "total": 610 }
+    }
+  },
+  {
+    "academic_year": "2023-2024",
+    "students": {
+      "vocational": { "male": 1223, "female": 1232, "total": 2455 },
+      "bachelor": { "male": 3917, "female": 4696, "total": 8613 },
+      "master": { "male": 205, "female": 304, "total": 509 },
+      "phd": { "male": 30, "female": 48, "total": 78 },
+      "total": { "male": 5375, "female": 6280, "total": 11655 }
+    },
+    "staff": {
+      "professors": { "male": 58, "female": 57, "total": 115 },
+      "associate_professors": { "male": 31, "female": 29, "total": 60 },
+      "assistant_professors": { "male": 70, "female": 68, "total": 138 },
+      "lecturers": { "male": 53, "female": 131, "total": 184 },
+      "instructors": { "male": 0, "female": 0, "total": 0 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 37, "female": 52, "total": 89 },
+      "total": { "male": 249, "female": 337, "total": 586 }
+    }
+  },
+  {
+    "academic_year": "2022-2023",
+    "students": {
+      "vocational": { "male": 1030, "female": 1085, "total": 2115 },
+      "bachelor": { "male": 3702, "female": 4137, "total": 7839 },
+      "master": { "male": 234, "female": 333, "total": 567 },
+      "phd": { "male": 29, "female": 53, "total": 82 },
+      "total": { "male": 4995, "female": 5608, "total": 10603 }
+    },
+    "staff": {
+      "professors": { "male": 58, "female": 51, "total": 109 },
+      "associate_professors": { "male": 29, "female": 31, "total": 60 },
+      "assistant_professors": { "male": 71, "female": 65, "total": 136 },
+      "lecturers": { "male": 56, "female": 126, "total": 182 },
+      "instructors": { "male": 0, "female": 0, "total": 0 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 31, "female": 55, "total": 86 },
+      "total": { "male": 245, "female": 328, "total": 573 }
+    }
+  },
+  {
+    "academic_year": "2021-2022",
+    "students": {
+      "vocational": { "male": 939, "female": 1027, "total": 1966 },
+      "bachelor": { "male": 3554, "female": 3856, "total": 7410 },
+      "master": { "male": 201, "female": 373, "total": 574 },
+      "phd": { "male": 34, "female": 54, "total": 88 },
+      "total": { "male": 4728, "female": 5310, "total": 10038 }
+    },
+    "staff": {
+      "professors": { "male": 51, "female": 46, "total": 97 },
+      "associate_professors": { "male": 25, "female": 30, "total": 55 },
+      "assistant_professors": { "male": 65, "female": 72, "total": 137 },
+      "lecturers": { "male": 56, "female": 120, "total": 176 },
+      "instructors": { "male": 0, "female": 0, "total": 0 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 33, "female": 54, "total": 87 },
+      "total": { "male": 230, "female": 322, "total": 552 }
+    }
+  },
+  {
+    "academic_year": "2020-2021",
+    "students": {
+      "vocational": { "male": 900, "female": 944, "total": 1844 },
+      "bachelor": { "male": 3654, "female": 3795, "total": 7449 },
+      "master": { "male": 206, "female": 378, "total": 584 },
+      "phd": { "male": 38, "female": 50, "total": 88 },
+      "total": { "male": 4798, "female": 5167, "total": 9965 }
+    },
+    "staff": {
+      "professors": { "male": 51, "female": 46, "total": 97 },
+      "associate_professors": { "male": 25, "female": 30, "total": 55 },
+      "assistant_professors": { "male": 65, "female": 72, "total": 137 },
+      "lecturers": { "male": 56, "female": 120, "total": 176 },
+      "instructors": { "male": 0, "female": 0, "total": 0 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 33, "female": 54, "total": 87 },
+      "total": { "male": 230, "female": 322, "total": 552 }
+    }
+  },
+  {
+    "academic_year": "2019-2020",
+    "students": {
+      "vocational": { "male": 838, "female": 896, "total": 1734 },
+      "bachelor": { "male": 3558, "female": 3599, "total": 7157 },
+      "master": { "male": 181, "female": 294, "total": 475 },
+      "phd": { "male": 34, "female": 41, "total": 75 },
+      "total": { "male": 4611, "female": 4830, "total": 9441 }
+    },
+    "staff": {
+      "professors": { "male": 35, "female": 33, "total": 68 },
+      "associate_professors": { "male": 19, "female": 26, "total": 45 },
+      "assistant_professors": { "male": 49, "female": 50, "total": 99 },
+      "lecturers": { "male": 61, "female": 124, "total": 185 },
+      "instructors": { "male": 0, "female": 0, "total": 0 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 33, "female": 52, "total": 85 },
+      "total": { "male": 197, "female": 285, "total": 482 }
+    }
+  },
+  {
+    "academic_year": "2018-2019",
+    "students": {
+      "vocational": { "male": 726, "female": 877, "total": 1603 },
+      "bachelor": { "male": 3483, "female": 3560, "total": 7043 },
+      "master": { "male": 328, "female": 270, "total": 598 },
+      "phd": { "male": 36, "female": 42, "total": 78 },
+      "total": { "male": 4573, "female": 4749, "total": 9322 }
+    },
+    "staff": {
+      "professors": { "male": 29, "female": 30, "total": 59 },
+      "associate_professors": { "male": 24, "female": 29, "total": 53 },
+      "assistant_professors": { "male": 46, "female": 50, "total": 96 },
+      "lecturers": { "male": 59, "female": 126, "total": 185 },
+      "instructors": { "male": 0, "female": 0, "total": 0 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 24, "female": 45, "total": 69 },
+      "total": { "male": 182, "female": 280, "total": 462 }
+    }
+  },
+  {
+    "academic_year": "2017-2018",
+    "students": {
+      "vocational": { "male": 740, "female": 923, "total": 1663 },
+      "bachelor": { "male": 3602, "female": 3643, "total": 7245 },
+      "master": { "male": 498, "female": 296, "total": 794 },
+      "phd": { "male": 35, "female": 37, "total": 72 },
+      "total": { "male": 4875, "female": 4899, "total": 9774 }
+    },
+    "staff": {
+      "professors": { "male": 23, "female": 24, "total": 47 },
+      "associate_professors": { "male": 25, "female": 26, "total": 51 },
+      "assistant_professors": { "male": 41, "female": 50, "total": 91 },
+      "lecturers": { "male": 67, "female": 131, "total": 198 },
+      "instructors": { "male": 0, "female": 0, "total": 0 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 25, "female": 45, "total": 70 },
+      "total": { "male": 181, "female": 276, "total": 457 }
+    }
+  },
+  {
+    "academic_year": "2016-2017",
+    "students": {
+      "vocational": { "male": 754, "female": 939, "total": 1693 },
+      "bachelor": { "male": 3619, "female": 3583, "total": 7202 },
+      "master": { "male": 661, "female": 337, "total": 998 },
+      "phd": { "male": 30, "female": 39, "total": 69 },
+      "total": { "male": 5064, "female": 4898, "total": 9962 }
+    },
+    "staff": {
+      "professors": { "male": 20, "female": 21, "total": 41 },
+      "associate_professors": { "male": 26, "female": 20, "total": 46 },
+      "assistant_professors": { "male": 46, "female": 47, "total": 93 },
+      "lecturers": { "male": 43, "female": 65, "total": 108 },
+      "instructors": { "male": 25, "female": 77, "total": 102 },
+      "specialists": { "male": 1, "female": 0, "total": 1 },
+      "research_assistants": { "male": 23, "female": 37, "total": 60 },
+      "total": { "male": 184, "female": 267, "total": 451 }
+    }
+  },
+  {
+    "academic_year": "2015-2016",
+    "students": {
+      "vocational": { "male": 619, "female": 687, "total": 1306 },
+      "bachelor": { "male": 3827, "female": 4042, "total": 7869 },
+      "master": { "male": 559, "female": 378, "total": 937 },
+      "phd": { "male": 39, "female": 42, "total": 81 },
+      "total": { "male": 5044, "female": 5149, "total": 10193 }
+    },
+    "staff": {
+      "professors": { "male": 30, "female": 17, "total": 47 },
+      "associate_professors": { "male": 25, "female": 23, "total": 48 },
+      "assistant_professors": { "male": 42, "female": 56, "total": 98 },
+      "lecturers": { "male": 45, "female": 65, "total": 110 },
+      "instructors": { "male": 29, "female": 81, "total": 110 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 20, "female": 37, "total": 57 },
+      "total": { "male": 191, "female": 279, "total": 470 }
+    }
+  },
+  {
+    "academic_year": "2014-2015",
+    "students": {
+      "vocational": { "male": 386, "female": 388, "total": 774 },
+      "bachelor": { "male": 3022, "female": 3094, "total": 6116 },
+      "master": { "male": 370, "female": 282, "total": 652 },
+      "phd": { "male": 28, "female": 35, "total": 63 },
+      "total": { "male": 3806, "female": 3799, "total": 7605 }
+    },
+    "staff": {
+      "professors": { "male": 24, "female": 11, "total": 35 },
+      "associate_professors": { "male": 21, "female": 19, "total": 40 },
+      "assistant_professors": { "male": 37, "female": 57, "total": 94 },
+      "lecturers": { "male": 41, "female": 55, "total": 96 },
+      "instructors": { "male": 28, "female": 88, "total": 116 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 24, "female": 48, "total": 72 },
+      "total": { "male": 175, "female": 278, "total": 453 }
+    }
+  },
+  {
+    "academic_year": "2013-2014",
+    "students": {
+      "vocational": { "male": 353, "female": 347, "total": 700 },
+      "bachelor": { "male": 2755, "female": 2757, "total": 5512 },
+      "master": { "male": 286, "female": 263, "total": 549 },
+      "phd": { "male": 28, "female": 35, "total": 63 },
+      "total": { "male": 3422, "female": 3402, "total": 6824 }
+    },
+    "staff": {
+      "professors": { "male": 29, "female": 13, "total": 42 },
+      "associate_professors": { "male": 16, "female": 15, "total": 31 },
+      "assistant_professors": { "male": 33, "female": 54, "total": 87 },
+      "lecturers": { "male": 39, "female": 53, "total": 92 },
+      "instructors": { "male": 27, "female": 88, "total": 115 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 22, "female": 45, "total": 67 },
+      "total": { "male": 166, "female": 268, "total": 434 }
+    }
+  },
+  {
+    "academic_year": "2012-2013",
+    "students": {
+      "vocational": { "male": 165, "female": 123, "total": 288 },
+      "bachelor": { "male": 2962, "female": 2964, "total": 5926 },
+      "master": { "male": 161, "female": 156, "total": 317 },
+      "phd": { "male": 21, "female": 26, "total": 47 },
+      "total": { "male": 3309, "female": 3269, "total": 6578 }
+    },
+    "staff": {
+      "professors": { "male": 23, "female": 12, "total": 35 },
+      "associate_professors": { "male": 17, "female": 9, "total": 26 },
+      "assistant_professors": { "male": 35, "female": 52, "total": 87 },
+      "lecturers": { "male": 37, "female": 39, "total": 76 },
+      "instructors": { "male": 26, "female": 91, "total": 117 },
+      "specialists": { "male": 1, "female": 0, "total": 1 },
+      "research_assistants": { "male": 29, "female": 58, "total": 87 },
+      "total": { "male": 168, "female": 261, "total": 429 }
+    }
+  },
+  {
+    "academic_year": "2011-2012",
+    "students": {
+      "vocational": { "male": 108, "female": 58, "total": 166 },
+      "bachelor": { "male": 3022, "female": 3027, "total": 6049 },
+      "master": { "male": 116, "female": 119, "total": 235 },
+      "phd": { "male": 16, "female": 19, "total": 35 },
+      "total": { "male": 3262, "female": 3223, "total": 6485 }
+    },
+    "staff": {
+      "professors": { "male": 21, "female": 12, "total": 33 },
+      "associate_professors": { "male": 12, "female": 7, "total": 19 },
+      "assistant_professors": { "male": 40, "female": 47, "total": 87 },
+      "lecturers": { "male": 42, "female": 46, "total": 88 },
+      "instructors": { "male": 28, "female": 97, "total": 125 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 36, "female": 62, "total": 98 },
+      "total": { "male": 179, "female": 271, "total": 450 }
+    }
+  },
+  {
+    "academic_year": "2010-2011",
+    "students": {
+      "vocational": { "male": 66, "female": 35, "total": 101 },
+      "bachelor": { "male": 2919, "female": 2953, "total": 5872 },
+      "master": { "male": 98, "female": 95, "total": 193 },
+      "phd": { "male": 15, "female": 17, "total": 32 },
+      "total": { "male": 3098, "female": 3100, "total": 6198 }
+    },
+    "staff": {
+      "professors": { "male": 19, "female": 7, "total": 26 },
+      "associate_professors": { "male": 14, "female": 5, "total": 19 },
+      "assistant_professors": { "male": 38, "female": 47, "total": 85 },
+      "lecturers": { "male": 45, "female": 46, "total": 91 },
+      "instructors": { "male": 27, "female": 100, "total": 127 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 43, "female": 50, "total": 93 },
+      "total": { "male": 186, "female": 255, "total": 441 }
+    }
+  },
+  {
+    "academic_year": "2009-2010",
+    "students": {
+      "vocational": { "male": 65, "female": 48, "total": 113 },
+      "bachelor": { "male": 2826, "female": 2984, "total": 5810 },
+      "master": { "male": 78, "female": 79, "total": 157 },
+      "phd": { "male": 10, "female": 17, "total": 27 },
+      "total": { "male": 2979, "female": 3128, "total": 6107 }
+    },
+    "staff": {
+      "professors": { "male": 12, "female": 4, "total": 16 },
+      "associate_professors": { "male": 17, "female": 3, "total": 20 },
+      "assistant_professors": { "male": 25, "female": 33, "total": 58 },
+      "lecturers": { "male": 30, "female": 47, "total": 77 },
+      "instructors": { "male": 30, "female": 107, "total": 137 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 29, "female": 41, "total": 70 },
+      "total": { "male": 143, "female": 235, "total": 378 }
+    }
+  },
+  {
+    "academic_year": "2008-2009",
+    "students": {
+      "vocational": { "male": 67, "female": 80, "total": 147 },
+      "bachelor": { "male": 2738, "female": 2897, "total": 5635 },
+      "master": { "male": 99, "female": 83, "total": 182 },
+      "phd": { "male": 5, "female": 15, "total": 20 },
+      "total": { "male": 2909, "female": 3075, "total": 5984 }
+    },
+    "staff": {
+      "professors": { "male": 12, "female": 4, "total": 16 },
+      "associate_professors": { "male": 17, "female": 3, "total": 20 },
+      "assistant_professors": { "male": 25, "female": 33, "total": 58 },
+      "lecturers": { "male": 30, "female": 47, "total": 77 },
+      "instructors": { "male": 30, "female": 107, "total": 137 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 30, "female": 43, "total": 73 },
+      "total": { "male": 144, "female": 237, "total": 381 }
+    }
+  },
+  {
+    "academic_year": "2007-2008",
+    "students": {
+      "vocational": { "male": 139, "female": 190, "total": 329 },
+      "bachelor": { "male": 2448, "female": 2499, "total": 4947 },
+      "master": { "male": 112, "female": 96, "total": 208 },
+      "phd": { "male": 3, "female": 12, "total": 15 },
+      "total": { "male": 2702, "female": 2797, "total": 5499 }
+    },
+    "staff": {
+      "professors": { "male": 12, "female": 4, "total": 16 },
+      "associate_professors": { "male": 13, "female": 1, "total": 14 },
+      "assistant_professors": { "male": 21, "female": 27, "total": 48 },
+      "lecturers": { "male": 32, "female": 45, "total": 77 },
+      "instructors": { "male": 32, "female": 104, "total": 136 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 21, "female": 40, "total": 61 },
+      "total": { "male": 131, "female": 221, "total": 352 }
+    }
+  },
+  {
+    "academic_year": "2006-2007",
+    "students": {
+      "vocational": { "male": 253, "female": 359, "total": 612 },
+      "bachelor": { "male": 2133, "female": 2010, "total": 4143 },
+      "master": { "male": 119, "female": 125, "total": 244 },
+      "phd": { "male": 5, "female": 12, "total": 17 },
+      "total": { "male": 2510, "female": 2506, "total": 5016 }
+    },
+    "staff": {
+      "professors": { "male": 13, "female": 4, "total": 17 },
+      "associate_professors": { "male": 10, "female": 1, "total": 11 },
+      "assistant_professors": { "male": 17, "female": 17, "total": 34 },
+      "lecturers": { "male": 30, "female": 48, "total": 78 },
+      "instructors": { "male": 36, "female": 110, "total": 146 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 15, "female": 35, "total": 50 },
+      "total": { "male": 121, "female": 215, "total": 336 }
+    }
+  },
+  {
+    "academic_year": "2005-2006",
+    "students": {
+      "vocational": { "male": 381, "female": 516, "total": 897 },
+      "bachelor": { "male": 1806, "female": 1677, "total": 3483 },
+      "master": { "male": 116, "female": 107, "total": 223 },
+      "phd": { "male": 3, "female": 9, "total": 12 },
+      "total": { "male": 2306, "female": 2309, "total": 4615 }
+    },
+    "staff": {
+      "professors": { "male": 14, "female": 5, "total": 19 },
+      "associate_professors": { "male": 6, "female": 0, "total": 6 },
+      "assistant_professors": { "male": 17, "female": 11, "total": 28 },
+      "lecturers": { "male": 16, "female": 24, "total": 40 },
+      "instructors": { "male": 43, "female": 96, "total": 139 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 11, "female": 21, "total": 32 },
+      "total": { "male": 107, "female": 157, "total": 264 }
+    }
+  },
+  {
+    "academic_year": "2004-2005",
+    "students": {
+      "vocational": { "male": 405, "female": 578, "total": 983 },
+      "bachelor": { "male": 1209, "female": 1109, "total": 2318 },
+      "master": { "male": 121, "female": 84, "total": 205 },
+      "phd": { "male": 2, "female": 4, "total": 6 },
+      "total": { "male": 1737, "female": 1775, "total": 3512 }
+    },
+    "staff": {
+      "professors": { "male": 14, "female": 2, "total": 16 },
+      "associate_professors": { "male": 5, "female": 0, "total": 5 },
+      "assistant_professors": { "male": 12, "female": 5, "total": 17 },
+      "lecturers": { "male": 12, "female": 10, "total": 22 },
+      "instructors": { "male": 37, "female": 67, "total": 104 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 6, "female": 17, "total": 23 },
+      "total": { "male": 86, "female": 101, "total": 187 }
+    }
+  },
+  {
+    "academic_year": "2003-2004",
+    "students": {
+      "vocational": { "male": 354, "female": 674, "total": 1028 },
+      "bachelor": { "male": 715, "female": 593, "total": 1308 },
+      "master": { "male": 93, "female": 55, "total": 148 },
+      "phd": { "male": 0, "female": 0, "total": 0 },
+      "total": { "male": 1162, "female": 1322, "total": 2484 }
+    },
+    "staff": {
+      "professors": { "male": 11, "female": 2, "total": 13 },
+      "associate_professors": { "male": 2, "female": 1, "total": 3 },
+      "assistant_professors": { "male": 3, "female": 4, "total": 7 },
+      "lecturers": { "male": 5, "female": 4, "total": 9 },
+      "instructors": { "male": 10, "female": 35, "total": 45 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 5, "female": 9, "total": 14 },
+      "total": { "male": 36, "female": 55, "total": 91 }
+    }
+  },
+  {
+    "academic_year": "2002-2003",
+    "students": {
+      "vocational": { "male": 172, "female": 408, "total": 580 },
+      "bachelor": { "male": 348, "female": 302, "total": 650 },
+      "master": { "male": 31, "female": 19, "total": 50 },
+      "phd": { "male": 0, "female": 0, "total": 0 },
+      "total": { "male": 551, "female": 729, "total": 1280 }
+    },
+    "staff": {
+      "professors": { "male": 11, "female": 2, "total": 13 },
+      "associate_professors": { "male": 2, "female": 2, "total": 4 },
+      "assistant_professors": { "male": 3, "female": 5, "total": 8 },
+      "lecturers": { "male": 5, "female": 4, "total": 9 },
+      "instructors": { "male": 10, "female": 35, "total": 45 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 5, "female": 9, "total": 14 },
+      "total": { "male": 36, "female": 57, "total": 93 }
+    }
+  },
+  {
+    "academic_year": "2001-2002",
+    "students": {
+      "vocational": { "male": 0, "female": 0, "total": 0 },
+      "bachelor": { "male": 146, "female": 142, "total": 288 },
+      "master": { "male": 0, "female": 0, "total": 0 },
+      "phd": { "male": 0, "female": 0, "total": 0 },
+      "total": { "male": 146, "female": 142, "total": 288 }
+    },
+    "staff": {
+      "professors": { "male": 6, "female": 1, "total": 7 },
+      "associate_professors": { "male": 0, "female": 1, "total": 1 },
+      "assistant_professors": { "male": 2, "female": 3, "total": 5 },
+      "lecturers": { "male": 0, "female": 1, "total": 1 },
+      "instructors": { "male": 7, "female": 13, "total": 20 },
+      "specialists": { "male": 0, "female": 0, "total": 0 },
+      "research_assistants": { "male": 1, "female": 4, "total": 5 },
+      "total": { "male": 16, "female": 23, "total": 39 }
+    }
+  }
+]
