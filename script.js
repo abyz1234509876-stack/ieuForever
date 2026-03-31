@@ -44,19 +44,22 @@ function loadDataset(datasetKey) {
 }
 
 function drawChart(raw, config) {
-  const font = "'Open Sans', sans-serif";
-  const margin = { top: 60, right: 30, bottom: 50, left: 70 };
-  const W = document.getElementById('chart').clientWidth || 2400;
-  const H = 500;
-  const w = W - margin.left - margin.right;
-  const h = H - margin.top - margin.bottom;
+  const font = "'Open Sans', sans-serif"; /* */
+  const margin = { top: 60, right: 30, bottom: 50, left: 70 }; /* */
+  
+  // 1. Force W to be exactly 2400
+  const W = 3600; 
+  const H = 600; /* */
+  const w = W - margin.left - margin.right; /* */
+  const h = H - margin.top - margin.bottom; /* */
 
   const svg = d3.select('#chart').append('svg')
-    .attr('viewBox', `0 0 ${W} ${H}`)
-    .attr('width', '100%')
-    .style('font-family', font)
+    .attr('viewBox', `0 0 ${W} ${H}`) /* */
+    // 2. Change '100%' to W to prevent the chart from shrinking
+    .attr('width', W) 
+    .style('font-family', font) /* */
     .append('g')
-    .attr('transform', `translate(${margin.left},${margin.top})`);
+    .attr('transform', `translate(${margin.left},${margin.top})`); /* */
 
   const stack = d3.stack()
     .keys(config.keys)
