@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IEU Student Enrollment Streamgraph</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>IUE STUDENT ENROLLMENT NUMBERS (2001–2025)</h2>
+
+    <select id="dataset-select">
+      <option value="students">Students</option>
+      <option value="staff">Academic Staff</option>
+    </select>
+
+    <div id="chart"></div>
+
+    <button id="export-btn">Export as SVG</button>
+
+    <div class="legend">
+      <span
+        ><span class="legend-color" style="background: #ffcc99"></span>Female
+        vocational</span
+      >
+      <span
+        ><span class="legend-color" style="background: #ffb366"></span>Female
+        bachelor</span
+      >
+      <span
+        ><span class="legend-color" style="background: #ff9933"></span>Female
+        master</span
+      >
+      <span
+        ><span class="legend-color" style="background: #ff8000"></span>Female
+        PhD</span
+      >
+      <span
+        ><span class="legend-color" style="background: #9999f5"></span>Male
+        vocational</span
+      >
+      <span
+        ><span class="legend-color" style="background: #6666ef"></span>Male
+        bachelor</span
+      >
+      <span
+        ><span class="legend-color" style="background: #3333ec"></span>Male
+        master</span
+      >
+      <span
+        ><span class="legend-color" style="background: #1e1ee8"></span>Male
+        PhD</span
+      >
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

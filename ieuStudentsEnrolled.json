@@ -1,0 +1,1568 @@
+[
+  {
+    "year": "2024-2025",
+    "program_type": "BIRINCI Ö.",
+    "vocational": {
+      "male": 1058,
+      "female": 1156,
+      "total": 2214
+    },
+    "bachelor": {
+      "male": 3817,
+      "female": 4470,
+      "total": 8287
+    },
+    "master": {
+      "male": 174,
+      "female": 284,
+      "total": 458
+    },
+    "phd": {
+      "male": 27,
+      "female": 48,
+      "total": 75
+    },
+    "total": {
+      "male": 5076,
+      "female": 5958,
+      "total": 11034
+    }
+  },
+  {
+    "year": "2024-2025",
+    "program_type": "IKINCI Ö.",
+    "vocational": {
+      "male": 109,
+      "female": 37,
+      "total": 146
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 109,
+      "female": 37,
+      "total": 146
+    }
+  },
+  {
+    "year": "2024-2025",
+    "program_type": "UZAKTAN Ö.",
+    "vocational": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 21,
+      "female": 16,
+      "total": 37
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 21,
+      "female": 16,
+      "total": 37
+    }
+  },
+  {
+    "year": "2024-2025",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 1167,
+      "female": 1193,
+      "total": 2360
+    },
+    "bachelor": {
+      "male": 3817,
+      "female": 4470,
+      "total": 8287
+    },
+    "master": {
+      "male": 195,
+      "female": 300,
+      "total": 495
+    },
+    "phd": {
+      "male": 27,
+      "female": 48,
+      "total": 75
+    },
+    "total": {
+      "male": 5206,
+      "female": 6011,
+      "total": 11217
+    }
+  },
+  {
+    "year": "2023-2024",
+    "program_type": "BIRINCI Ö.",
+    "vocational": {
+      "male": 1102,
+      "female": 1186,
+      "total": 2288
+    },
+    "bachelor": {
+      "male": 3917,
+      "female": 4696,
+      "total": 8613
+    },
+    "master": {
+      "male": 193,
+      "female": 292,
+      "total": 485
+    },
+    "phd": {
+      "male": 30,
+      "female": 48,
+      "total": 78
+    },
+    "total": {
+      "male": 5242,
+      "female": 6222,
+      "total": 11464
+    }
+  },
+  {
+    "year": "2023-2024",
+    "program_type": "IKINCI Ö.",
+    "vocational": {
+      "male": 121,
+      "female": 46,
+      "total": 167
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 121,
+      "female": 46,
+      "total": 167
+    }
+  },
+  {
+    "year": "2023-2024",
+    "program_type": "UZAKTAN Ö.",
+    "vocational": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 12,
+      "female": 12,
+      "total": 24
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 12,
+      "female": 12,
+      "total": 24
+    }
+  },
+  {
+    "year": "2023-2024",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 1223,
+      "female": 1232,
+      "total": 2455
+    },
+    "bachelor": {
+      "male": 3917,
+      "female": 4696,
+      "total": 8613
+    },
+    "master": {
+      "male": 205,
+      "female": 304,
+      "total": 509
+    },
+    "phd": {
+      "male": 30,
+      "female": 48,
+      "total": 78
+    },
+    "total": {
+      "male": 5375,
+      "female": 6280,
+      "total": 11655
+    }
+  },
+  {
+    "year": "2022-2023",
+    "program_type": "BIRINCI Ö.",
+    "vocational": {
+      "male": 928,
+      "female": 1054,
+      "total": 1982
+    },
+    "bachelor": {
+      "male": 3702,
+      "female": 4137,
+      "total": 7839
+    },
+    "master": {
+      "male": 208,
+      "female": 318,
+      "total": 526
+    },
+    "phd": {
+      "male": 29,
+      "female": 53,
+      "total": 82
+    },
+    "total": {
+      "male": 4867,
+      "female": 5562,
+      "total": 10429
+    }
+  },
+  {
+    "year": "2022-2023",
+    "program_type": "IKINCI Ö.",
+    "vocational": {
+      "male": 102,
+      "female": 31,
+      "total": 133
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 102,
+      "female": 31,
+      "total": 133
+    }
+  },
+  {
+    "year": "2022-2023",
+    "program_type": "UZAKTAN Ö.",
+    "vocational": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 26,
+      "female": 15,
+      "total": 41
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 26,
+      "female": 15,
+      "total": 41
+    }
+  },
+  {
+    "year": "2022-2023",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 1030,
+      "female": 1085,
+      "total": 2115
+    },
+    "bachelor": {
+      "male": 3702,
+      "female": 4137,
+      "total": 7839
+    },
+    "master": {
+      "male": 234,
+      "female": 333,
+      "total": 567
+    },
+    "phd": {
+      "male": 29,
+      "female": 53,
+      "total": 82
+    },
+    "total": {
+      "male": 4995,
+      "female": 5608,
+      "total": 10603
+    }
+  },
+  {
+    "year": "2021-2022",
+    "program_type": "BIRINCI Ö.",
+    "vocational": {
+      "male": 857,
+      "female": 999,
+      "total": 1856
+    },
+    "bachelor": {
+      "male": 3554,
+      "female": 3856,
+      "total": 7410
+    },
+    "master": {
+      "male": 182,
+      "female": 353,
+      "total": 535
+    },
+    "phd": {
+      "male": 34,
+      "female": 54,
+      "total": 88
+    },
+    "total": {
+      "male": 4627,
+      "female": 5262,
+      "total": 9889
+    }
+  },
+  {
+    "year": "2021-2022",
+    "program_type": "IKINCI Ö.",
+    "vocational": {
+      "male": 82,
+      "female": 28,
+      "total": 110
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 82,
+      "female": 28,
+      "total": 110
+    }
+  },
+  {
+    "year": "2021-2022",
+    "program_type": "UZAKTAN Ö.",
+    "vocational": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 19,
+      "female": 20,
+      "total": 39
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 19,
+      "female": 20,
+      "total": 39
+    }
+  },
+  {
+    "year": "2021-2022",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 939,
+      "female": 1027,
+      "total": 1966
+    },
+    "bachelor": {
+      "male": 3554,
+      "female": 3856,
+      "total": 7410
+    },
+    "master": {
+      "male": 201,
+      "female": 373,
+      "total": 574
+    },
+    "phd": {
+      "male": 34,
+      "female": 54,
+      "total": 88
+    },
+    "total": {
+      "male": 4728,
+      "female": 5310,
+      "total": 10038
+    }
+  },
+  {
+    "year": "2020-2021",
+    "program_type": "BIRINCI Ö.",
+    "vocational": {
+      "male": 831,
+      "female": 918,
+      "total": 1749
+    },
+    "bachelor": {
+      "male": 3654,
+      "female": 3795,
+      "total": 7449
+    },
+    "master": {
+      "male": 186,
+      "female": 350,
+      "total": 536
+    },
+    "phd": {
+      "male": 38,
+      "female": 50,
+      "total": 88
+    },
+    "total": {
+      "male": 4709,
+      "female": 5113,
+      "total": 9822
+    }
+  },
+  {
+    "year": "2020-2021",
+    "program_type": "IKINCI Ö.",
+    "vocational": {
+      "male": 69,
+      "female": 26,
+      "total": 95
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 69,
+      "female": 26,
+      "total": 95
+    }
+  },
+  {
+    "year": "2020-2021",
+    "program_type": "UZAKTAN Ö.",
+    "vocational": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 20,
+      "female": 28,
+      "total": 48
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 20,
+      "female": 28,
+      "total": 48
+    }
+  },
+  {
+    "year": "2020-2021",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 900,
+      "female": 944,
+      "total": 1844
+    },
+    "bachelor": {
+      "male": 3654,
+      "female": 3795,
+      "total": 7449
+    },
+    "master": {
+      "male": 206,
+      "female": 378,
+      "total": 584
+    },
+    "phd": {
+      "male": 38,
+      "female": 50,
+      "total": 88
+    },
+    "total": {
+      "male": 4798,
+      "female": 5167,
+      "total": 9965
+    }
+  },
+  {
+    "year": "2019-2020",
+    "program_type": "BIRINCI Ö.",
+    "vocational": {
+      "male": 792,
+      "female": 875,
+      "total": 1667
+    },
+    "bachelor": {
+      "male": 3558,
+      "female": 3599,
+      "total": 7157
+    },
+    "master": {
+      "male": 174,
+      "female": 286,
+      "total": 460
+    },
+    "phd": {
+      "male": 34,
+      "female": 41,
+      "total": 75
+    },
+    "total": {
+      "male": 4558,
+      "female": 4801,
+      "total": 9359
+    }
+  },
+  {
+    "year": "2019-2020",
+    "program_type": "IKINCI Ö.",
+    "vocational": {
+      "male": 46,
+      "female": 21,
+      "total": 67
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 46,
+      "female": 21,
+      "total": 67
+    }
+  },
+  {
+    "year": "2019-2020",
+    "program_type": "UZAKTAN Ö.",
+    "vocational": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 7,
+      "female": 8,
+      "total": 15
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 7,
+      "female": 8,
+      "total": 15
+    }
+  },
+  {
+    "year": "2019-2020",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 838,
+      "female": 896,
+      "total": 1734
+    },
+    "bachelor": {
+      "male": 3558,
+      "female": 3599,
+      "total": 7157
+    },
+    "master": {
+      "male": 181,
+      "female": 294,
+      "total": 475
+    },
+    "phd": {
+      "male": 34,
+      "female": 41,
+      "total": 75
+    },
+    "total": {
+      "male": 4611,
+      "female": 4830,
+      "total": 9441
+    }
+  },
+  {
+    "year": "2018-2019",
+    "program_type": "BIRINCI Ö.",
+    "vocational": {
+      "male": 702,
+      "female": 861,
+      "total": 1563
+    },
+    "bachelor": {
+      "male": 3483,
+      "female": 3560,
+      "total": 7043
+    },
+    "master": {
+      "male": 269,
+      "female": 267,
+      "total": 536
+    },
+    "phd": {
+      "male": 36,
+      "female": 42,
+      "total": 78
+    },
+    "total": {
+      "male": 4490,
+      "female": 4730,
+      "total": 9220
+    }
+  },
+  {
+    "year": "2018-2019",
+    "program_type": "IKINCI Ö.",
+    "vocational": {
+      "male": 24,
+      "female": 16,
+      "total": 40
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 24,
+      "female": 16,
+      "total": 40
+    }
+  },
+  {
+    "year": "2018-2019",
+    "program_type": "UZAKTAN Ö.",
+    "vocational": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 59,
+      "female": 3,
+      "total": 62
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 59,
+      "female": 3,
+      "total": 62
+    }
+  },
+  {
+    "year": "2018-2019",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 726,
+      "female": 877,
+      "total": 1603
+    },
+    "bachelor": {
+      "male": 3483,
+      "female": 3560,
+      "total": 7043
+    },
+    "master": {
+      "male": 328,
+      "female": 270,
+      "total": 598
+    },
+    "phd": {
+      "male": 36,
+      "female": 42,
+      "total": 78
+    },
+    "total": {
+      "male": 4573,
+      "female": 4749,
+      "total": 9322
+    }
+  },
+  {
+    "year": "2017-2018",
+    "program_type": "BIRINCI Ö.",
+    "vocational": {
+      "male": 731,
+      "female": 916,
+      "total": 1647
+    },
+    "bachelor": {
+      "male": 3602,
+      "female": 3643,
+      "total": 7245
+    },
+    "master": {
+      "male": 353,
+      "female": 290,
+      "total": 643
+    },
+    "phd": {
+      "male": 35,
+      "female": 37,
+      "total": 72
+    },
+    "total": {
+      "male": 4721,
+      "female": 4886,
+      "total": 9607
+    }
+  },
+  {
+    "year": "2017-2018",
+    "program_type": "IKINCI Ö.",
+    "vocational": {
+      "male": 9,
+      "female": 7,
+      "total": 16
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 9,
+      "female": 7,
+      "total": 16
+    }
+  },
+  {
+    "year": "2017-2018",
+    "program_type": "UZAKTAN Ö.",
+    "vocational": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 145,
+      "female": 6,
+      "total": 151
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 145,
+      "female": 6,
+      "total": 151
+    }
+  },
+  {
+    "year": "2017-2018",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 740,
+      "female": 923,
+      "total": 1663
+    },
+    "bachelor": {
+      "male": 3602,
+      "female": 3643,
+      "total": 7245
+    },
+    "master": {
+      "male": 498,
+      "female": 296,
+      "total": 794
+    },
+    "phd": {
+      "male": 35,
+      "female": 37,
+      "total": 72
+    },
+    "total": {
+      "male": 4875,
+      "female": 4899,
+      "total": 9774
+    }
+  },
+  {
+    "year": "2016-2017",
+    "program_type": "BIRINCI Ö.",
+    "vocational": {
+      "male": 754,
+      "female": 939,
+      "total": 1693
+    },
+    "bachelor": {
+      "male": 3619,
+      "female": 3583,
+      "total": 7202
+    },
+    "master": {
+      "male": 413,
+      "female": 303,
+      "total": 716
+    },
+    "phd": {
+      "male": 30,
+      "female": 39,
+      "total": 69
+    },
+    "total": {
+      "male": 4816,
+      "female": 4864,
+      "total": 9680
+    }
+  },
+  {
+    "year": "2016-2017",
+    "program_type": "UZAKTAN Ö.",
+    "vocational": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 248,
+      "female": 34,
+      "total": 282
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 248,
+      "female": 34,
+      "total": 282
+    }
+  },
+  {
+    "year": "2016-2017",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 754,
+      "female": 939,
+      "total": 1693
+    },
+    "bachelor": {
+      "male": 3619,
+      "female": 3583,
+      "total": 7202
+    },
+    "master": {
+      "male": 661,
+      "female": 337,
+      "total": 998
+    },
+    "phd": {
+      "male": 30,
+      "female": 39,
+      "total": 69
+    },
+    "total": {
+      "male": 5064,
+      "female": 4898,
+      "total": 9962
+    }
+  },
+  {
+    "year": "2015-2016",
+    "program_type": "BIRINCI Ö.",
+    "vocational": {
+      "male": 619,
+      "female": 687,
+      "total": 1306
+    },
+    "bachelor": {
+      "male": 3827,
+      "female": 4042,
+      "total": 7869
+    },
+    "master": {
+      "male": 391,
+      "female": 340,
+      "total": 731
+    },
+    "phd": {
+      "male": 39,
+      "female": 42,
+      "total": 81
+    },
+    "total": {
+      "male": 4876,
+      "female": 5111,
+      "total": 9987
+    }
+  },
+  {
+    "year": "2015-2016",
+    "program_type": "UZAKTAN Ö.",
+    "vocational": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 168,
+      "female": 38,
+      "total": 206
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 168,
+      "female": 38,
+      "total": 206
+    }
+  },
+  {
+    "year": "2015-2016",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 619,
+      "female": 687,
+      "total": 1306
+    },
+    "bachelor": {
+      "male": 3827,
+      "female": 4042,
+      "total": 7869
+    },
+    "master": {
+      "male": 559,
+      "female": 378,
+      "total": 937
+    },
+    "phd": {
+      "male": 39,
+      "female": 42,
+      "total": 81
+    },
+    "total": {
+      "male": 5044,
+      "female": 5149,
+      "total": 10193
+    }
+  },
+  {
+    "year": "2014-2015",
+    "program_type": "BIRINCI Ö.",
+    "vocational": {
+      "male": 386,
+      "female": 388,
+      "total": 774
+    },
+    "bachelor": {
+      "male": 3022,
+      "female": 3094,
+      "total": 6116
+    },
+    "master": {
+      "male": 286,
+      "female": 261,
+      "total": 547
+    },
+    "phd": {
+      "male": 28,
+      "female": 35,
+      "total": 63
+    },
+    "total": {
+      "male": 3722,
+      "female": 3778,
+      "total": 7500
+    }
+  },
+  {
+    "year": "2014-2015",
+    "program_type": "UZAKTAN Ö.",
+    "vocational": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "bachelor": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "master": {
+      "male": 84,
+      "female": 21,
+      "total": 105
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 84,
+      "female": 21,
+      "total": 105
+    }
+  },
+  {
+    "year": "2014-2015",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 386,
+      "female": 388,
+      "total": 774
+    },
+    "bachelor": {
+      "male": 3022,
+      "female": 3094,
+      "total": 6116
+    },
+    "master": {
+      "male": 370,
+      "female": 282,
+      "total": 652
+    },
+    "phd": {
+      "male": 28,
+      "female": 35,
+      "total": 63
+    },
+    "total": {
+      "male": 3806,
+      "female": 3799,
+      "total": 7605
+    }
+  },
+  {
+    "year": "2013-2014",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 353,
+      "female": 347,
+      "total": 700
+    },
+    "bachelor": {
+      "male": 2755,
+      "female": 2757,
+      "total": 5512
+    },
+    "master": {
+      "male": 286,
+      "female": 263,
+      "total": 549
+    },
+    "phd": {
+      "male": 28,
+      "female": 35,
+      "total": 63
+    },
+    "total": {
+      "male": 3422,
+      "female": 3402,
+      "total": 6824
+    }
+  },
+  {
+    "year": "2012-2013",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 165,
+      "female": 123,
+      "total": 288
+    },
+    "bachelor": {
+      "male": 2962,
+      "female": 2964,
+      "total": 5926
+    },
+    "master": {
+      "male": 161,
+      "female": 156,
+      "total": 317
+    },
+    "phd": {
+      "male": 21,
+      "female": 26,
+      "total": 47
+    },
+    "total": {
+      "male": 3309,
+      "female": 3269,
+      "total": 6578
+    }
+  },
+  {
+    "year": "2011-2012",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 108,
+      "female": 58,
+      "total": 166
+    },
+    "bachelor": {
+      "male": 3022,
+      "female": 3027,
+      "total": 6049
+    },
+    "master": {
+      "male": 116,
+      "female": 119,
+      "total": 235
+    },
+    "phd": {
+      "male": 16,
+      "female": 19,
+      "total": 35
+    },
+    "total": {
+      "male": 3262,
+      "female": 3223,
+      "total": 6485
+    }
+  },
+  {
+    "year": "2010-2011",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 66,
+      "female": 35,
+      "total": 101
+    },
+    "bachelor": {
+      "male": 2919,
+      "female": 2953,
+      "total": 5872
+    },
+    "master": {
+      "male": 98,
+      "female": 95,
+      "total": 193
+    },
+    "phd": {
+      "male": 15,
+      "female": 17,
+      "total": 32
+    },
+    "total": {
+      "male": 3098,
+      "female": 3100,
+      "total": 6198
+    }
+  },
+  {
+    "year": "2009-2010",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 65,
+      "female": 48,
+      "total": 113
+    },
+    "bachelor": {
+      "male": 2826,
+      "female": 2984,
+      "total": 5810
+    },
+    "master": {
+      "male": 78,
+      "female": 79,
+      "total": 157
+    },
+    "phd": {
+      "male": 10,
+      "female": 17,
+      "total": 27
+    },
+    "total": {
+      "male": 2979,
+      "female": 3128,
+      "total": 6107
+    }
+  },
+  {
+    "year": "2008-2009",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 67,
+      "female": 80,
+      "total": 147
+    },
+    "bachelor": {
+      "male": 2738,
+      "female": 2897,
+      "total": 5635
+    },
+    "master": {
+      "male": 99,
+      "female": 83,
+      "total": 182
+    },
+    "phd": {
+      "male": 5,
+      "female": 15,
+      "total": 20
+    },
+    "total": {
+      "male": 2909,
+      "female": 3075,
+      "total": 5984
+    }
+  },
+  {
+    "year": "2007-2008",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 139,
+      "female": 190,
+      "total": 329
+    },
+    "bachelor": {
+      "male": 2448,
+      "female": 2499,
+      "total": 4947
+    },
+    "master": {
+      "male": 112,
+      "female": 96,
+      "total": 208
+    },
+    "phd": {
+      "male": 3,
+      "female": 12,
+      "total": 15
+    },
+    "total": {
+      "male": 2702,
+      "female": 2797,
+      "total": 5499
+    }
+  },
+  {
+    "year": "2006-2007",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 253,
+      "female": 359,
+      "total": 612
+    },
+    "bachelor": {
+      "male": 2133,
+      "female": 2010,
+      "total": 4143
+    },
+    "master": {
+      "male": 119,
+      "female": 125,
+      "total": 244
+    },
+    "phd": {
+      "male": 5,
+      "female": 12,
+      "total": 17
+    },
+    "total": {
+      "male": 2510,
+      "female": 2506,
+      "total": 5016
+    }
+  },
+  {
+    "year": "2005-2006",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 381,
+      "female": 516,
+      "total": 897
+    },
+    "bachelor": {
+      "male": 1806,
+      "female": 1677,
+      "total": 3483
+    },
+    "master": {
+      "male": 116,
+      "female": 107,
+      "total": 223
+    },
+    "phd": {
+      "male": 3,
+      "female": 9,
+      "total": 12
+    },
+    "total": {
+      "male": 2306,
+      "female": 2309,
+      "total": 4615
+    }
+  },
+  {
+    "year": "2004-2005",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 405,
+      "female": 578,
+      "total": 983
+    },
+    "bachelor": {
+      "male": 1209,
+      "female": 1109,
+      "total": 2318
+    },
+    "master": {
+      "male": 121,
+      "female": 84,
+      "total": 205
+    },
+    "phd": {
+      "male": 2,
+      "female": 4,
+      "total": 6
+    },
+    "total": {
+      "male": 1737,
+      "female": 1775,
+      "total": 3512
+    }
+  },
+  {
+    "year": "2003-2004",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 354,
+      "female": 674,
+      "total": 1028
+    },
+    "bachelor": {
+      "male": 715,
+      "female": 593,
+      "total": 1308
+    },
+    "master": {
+      "male": 93,
+      "female": 55,
+      "total": 148
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 1162,
+      "female": 1322,
+      "total": 2484
+    }
+  },
+  {
+    "year": "2002-2003",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 172,
+      "female": 408,
+      "total": 580
+    },
+    "bachelor": {
+      "male": 348,
+      "female": 302,
+      "total": 650
+    },
+    "master": {
+      "male": 31,
+      "female": 19,
+      "total": 50
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 551,
+      "female": 729,
+      "total": 1280
+    }
+  },
+  {
+    "year": "2001-2002",
+    "program_type": "TOPLAM",
+    "vocational": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "bachelor": {
+      "male": 146,
+      "female": 142,
+      "total": 288
+    },
+    "master": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "phd": {
+      "male": 0,
+      "female": 0,
+      "total": 0
+    },
+    "total": {
+      "male": 146,
+      "female": 142,
+      "total": 288
+    }
+  }
+]
