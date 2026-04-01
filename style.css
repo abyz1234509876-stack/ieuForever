@@ -12,11 +12,9 @@ body {
 h2 {
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 2rem;
-  /* Add this line to align the title to the left */
-  text-align: left;
-  /* Optional: align it with the chart's left margin (70px in your JS) */
-  padding-left: 70px;
+  margin-bottom: 1rem; /* Reduced margin to bring legend closer */
+  text-align: left; 
+  padding-left: 70px; 
 }
 
 #chart {
@@ -46,8 +44,18 @@ h2 {
 }
 
 .legend {
-  /* ... existing styles ... */
-  margin-top: -50px; /* Use a negative number if you want the legend closer to the taller SVG */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin-bottom: 2rem; /* Space between legend and chart */
+  font-size: 13px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: #666;
+  
+  /* Left alignment changes */
+  justify-content: flex-start; 
+  padding-left: 70px; 
+  max-width: none; 
 }
 
 .legend span {

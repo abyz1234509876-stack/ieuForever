@@ -60,10 +60,10 @@ function init() {
  * Main D3 function to render the visualization.
  */
 function drawChart(students, staff) {
-  const font = "'Open Sans', sans-serif";
+  const font = "'Bricolage Grotesque', sans-serif";
   
   // INCREASED margin.bottom and H to prevent circles from being cut off
-  const margin = { top: 60, right: 50, bottom: 300, left: 70 };
+  const margin = { top: 60, right: 50, bottom: 300, left: 50 };
   const W = 3200; 
   const H = 800; 
   
@@ -120,9 +120,8 @@ function drawChart(students, staff) {
     .join('path')
     .attr('d', key => areaGenerator(key)(students))
     .attr('fill', key => config.colors[key])
-    .attr('opacity', 0.8) 
-    .attr('stroke', key => config.colors[key])
-    .attr('stroke-width', 1);
+    .attr('opacity', 0.6);
+
 
   // 3. Staff Circles (Under the baseline)
   svg.selectAll('.staff-circle')
@@ -131,20 +130,18 @@ function drawChart(students, staff) {
     .attr('cx', d => x(d.year))
     .attr('cy', h + circleOffset) 
     .attr('r', d => rScale(d.totalStaff))
-    .attr('fill', config.colors.staffCircle)
-    .attr('stroke', '#E65100')
-    .attr('stroke-width', 0.5);
+    .attr('fill', config.colors.staffCircle);
 
   // 4. Y-Axis
   const yAxis = svg.append('g')
     .call(d3.axisLeft(y).ticks(8).tickFormat(d => d.toLocaleString()));
-  yAxis.select('.domain').attr('stroke', '#333').attr('stroke-width', 1.5);
-  yAxis.selectAll('text').attr('fill', '#666').attr('font-size', '11px');
+  yAxis.select('.domain');
+  yAxis.selectAll('text').attr('fill', 'rgb(26, 26, 26)').attr('font-size', '10px');
 
   // 5. Horizontal Baseline
   svg.append('line')
     .attr('x1', 0).attr('x2', w).attr('y1', h).attr('y2', h)
-    .attr('stroke', '#333').attr('stroke-width', 1.5);
+    .attr('stroke', '#333').attr('stroke-width', 1);
 
   // 6. X-Axis (Horizontal labels, smaller font)
   const xAxis = svg.append('g')
@@ -152,8 +149,8 @@ function drawChart(students, staff) {
     .call(d3.axisBottom(x).tickSize(0)); 
   xAxis.select('.domain').remove();
   xAxis.selectAll('text')
-    .attr('fill', 'rgba(0,0,0,0.55)')
-    .attr('font-size', '9px') 
+    .attr('fill', 'rgb(26, 26, 26)')
+    .attr('font-size', '14px') 
     .attr('dy', labelOffset)
     .attr('text-anchor', 'middle');
 }
