@@ -1,11 +1,11 @@
 body {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   background: #fff;
   color: #333;
   padding: 2rem;
-  display: block; 
+  display: block;
   /* 3. Changed min-width to 3200px to match JS */
-  min-width: 3200px; 
+  min-width: 3200px;
   text-align: center;
 }
 
@@ -14,16 +14,16 @@ h2 {
   font-weight: 600;
   margin-bottom: 2rem;
   /* Add this line to align the title to the left */
-  text-align: left; 
+  text-align: left;
   /* Optional: align it with the chart's left margin (70px in your JS) */
-  padding-left: 70px; 
+  padding-left: 70px;
 }
 
 #chart {
   width: 100%; /* */
   position: relative; /* */
   /* Ensure no internal scrollbars are active */
-  overflow: visible; 
+  overflow: visible;
 }
 
 /* ... keep the rest of your legend and tooltip styles ... */
@@ -46,15 +46,8 @@ h2 {
 }
 
 .legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px 24px;
-  margin-top: 16px;
-  font-size: 13px;
-  font-family: "Bricolage Grotesque", sans-serif;
-  color: #666;
-  justify-content: center;
-  max-width: 640px;
+  /* ... existing styles ... */
+  margin-top: -50px; /* Use a negative number if you want the legend closer to the taller SVG */
 }
 
 .legend span {
